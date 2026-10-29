@@ -131,6 +131,7 @@
     , "https://nouveau-europresse-com.ville-geneve.idm.oclc.org/*"
     , "https://nouveau-europresse-com.kedge.idm.oclc.org/*"
     , "https://nouveau-europresse-com.ezproxybsb.ad.univ-paris3.fr/"
+    , "https://nouveau-europresse-com.ezproxy.unifr.ch/*"
   ],
   "background": {
     "scripts": [
@@ -1516,6 +1517,11 @@
           "name": "Vallée Sud Médiathèques",
           "HTTP_REFERER": "https://mediatheques.valleesud.fr/",
           "AUTH_URL": "https://nouveau.europresse.com/access/httpref/default.aspx?un=U032788U_2"
+        {
+          "name": "Université de Fribourg",
+          "HTTP_REFERER": "https://www.unifr.ch/it/fr/acces-distant-a-l-intranet-vpn.html",
+          "AUTH_URL": "https://nouveau-europresse-com.ezproxy.unifr.ch/*"
+        }
         }
       ]
     }
